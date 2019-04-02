@@ -44,7 +44,7 @@
 
 
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
     Add a comment
   </button>
   
@@ -65,20 +65,12 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
+            <%= f.submit "Add a Comment", class: 'btn btn-danger' %>
           </div>
         <% end %>
       </div>
     </div>
   </div>
-     
-<div class="col-10 offset-1">
-  <h1 class="float-left">Comments</h1>
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myModal">
-    Add a comment
-  </button>
-</div>
 
 <div class="clear"></div>
 
