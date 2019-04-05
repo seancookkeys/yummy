@@ -131,12 +131,5 @@
 <h1>Photos</h1>
 
 <% @place.photos.each do |photo| %>
-
-  <div>
-    <blockquote>
-      <b><%= photo.caption %></b> -
-        <%= photo.caption %>
-      <small><%= photo.user.email %></small>
-    </blockquote>
-  </div>
-<% end %>
+  puts <%= photo.caption %>
+<% end %> 
